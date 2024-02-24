@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.close-icon {
+  color: 'white';
+  font-weight: "40px";
+  font-size: '15px'
+}
+
+
+
+
+/* top nav */
+/* .nav-section{
+  position: fixed;
+} */
+/* .navbar-logo{
+  position: fixed;
+  background-color: rgb(247, 246, 244);
+} */
+.icons {
+  margin-top: 20px;
+}
+
+.nav-icon1 {
+  color: #1877f2;
+  font-size: 24px;
+  padding-right: 8px;
+}
+
+.nav-icon2 {
+  color: #1DA1F2;
+  font-size: 24px;
+  padding-right: 8px;
+}
+
+.nav-icon3 {
+  color: #1DA1F2;
+  font-size: 24px;
+  padding-right: 8px;
+}
+
+.nav-icon4 {
+  color: #FF0000;
+  font-size: 24px;
+  padding-right: 8px;
+}
+
+.nav-icon5 {
+  color: #bc2a8d;
+  font-size: 24px;
+  padding-right: 8px;
+}
+
+.nav-icon6 {
+  color: #FF0000;
+  font-size: 24px;
+  padding-right: 8px;
+}
+
+.custom-icon {
+  color: #1DA1F2;
+  font-size: 24px;
+  padding-right: 10px;
+}
+
+.contact-container {
+  display: flex;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.whatsappImg {
+  height: 50px;
+}
+
+.contact-link {
+  color: black;
+  text-decoration: none;
+
+}
+
+/* main navbar */
+/* .navbar-logo{
+    background-color: rgb(244, 241, 241);
+    width: 100wh;
+  } */
+.nav-link {
+  color: black;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.nav-link:hover {
+  color: whitesmoke;
+  background-color: #007bff;
+  border-radius: 10px;
+
+
+}
+
+/* slider content */
+.content {
+  position: fixed;
+  bottom: 0;
+  color: #f1f1f1;
+  width: 30%;
+  margin: 0 0 100px 70px;
+}
+
+.content p {
+  margin: 15px 0 0 0;
+}

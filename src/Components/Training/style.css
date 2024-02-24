@@ -1,0 +1,52 @@
+.course-details{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    background-color: #f5f3f3;
+    padding: 30px;
+    border-bottom: 5px solid #fff;
+}
+.detail{
+    text-align: justify;
+    width: 50%;
+    padding-left: 20px;
+}
+.data{
+    padding-left: 50px;
+}
+.internship{
+    padding-left: 50px;
+}
+.sas-btn{
+    width: 100px;
+    height: 50px;
+    color: #0056b3;
+    border: 2px solid #0056b3;
+    border-radius: 5px ;
+}
+
+.skills{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 30px;
+}
+.images{
+    height: 100px;
+    width: 100px;
+}
+
+.skill-box{
+    padding: 10px;
+    transition: transform 0.5s ease;
+
+}
+.skill-box:hover{
+    color: #fff;
+    height: 250px;
+    width: 850px;
+    transform: scale(1.03);
+    border-radius: 5px;
+    background-color: #0056b3;
+    /* box-shadow: 0 0 10px 5px rgba(110, 93, 238, 0.8); */
+}
