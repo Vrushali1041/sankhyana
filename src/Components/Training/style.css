@@ -25,6 +25,11 @@
     border-radius: 5px ;
 }
 
+.batches{
+    margin-bottom: 230px;
+}
+
+/* section 2 */
 .skills{
     display: flex;
     flex-direction: row;
@@ -39,7 +44,6 @@
 .skill-box{
     padding: 10px;
     transition: transform 0.5s ease;
-
 }
 .skill-box:hover{
     color: #fff;
@@ -48,5 +52,4 @@
     transform: scale(1.03);
     border-radius: 5px;
     background-color: #0056b3;
-    /* box-shadow: 0 0 10px 5px rgba(110, 93, 238, 0.8); */
 }

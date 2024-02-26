@@ -1,0 +1,22 @@
+.batches-head{
+    margin-right: 200px;
+}
+.batches-btn{
+    width: 200px;
+    height: 40px;
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+.table-details{
+    text-align: justify;
+}
+.row-details{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    gap: 10px;
+}
+.text-color{
+    color: orange;
+}

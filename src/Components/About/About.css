@@ -2,21 +2,13 @@
     position: relative;
 }
 
-.img img {
-    /* height: 500px !important; */
+.bgImg img {
+    height: 500px !important;
     width: 100%;
-    /* background-size: cover;  */
 }
 
 /* About section */
-/* .bg-img {
-    background-image: url(/public/bg-img.png);
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat;
-    position: relative;
-    z-index: -100;
-} */
+
 .About {
     display: flex;
     flex-direction: column;
@@ -38,15 +30,13 @@ h1 {
     color: #000;
     font-weight: 600;
 }
-
-.container p {
+/* .mission-vision p {
     text-align: justify;
-    /* color: rgb(102, 101, 101); */
     font-size: 17px;
 
-}
+} */
 
-.btn {
+.Downloadbut {
     width: 250px;
     height: 50px;
     background-color: #1E59CC;
@@ -61,7 +51,7 @@ h1 {
 
 }
 
-.btn:hover {
+.Downloadbut:hover {
     background-color: #1E59CC;
     color: #fff;
     box-shadow: 0 0 10px 5px rgba(49, 27, 218, 0.3);
@@ -69,7 +59,7 @@ h1 {
 }
 
 /* Mission Vision Section */
-.mission-vision-container {
+.mission-vision {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -163,7 +153,7 @@ h1 {
   }
 
 /* leadership section */
-.lead-container {
+.lead {
     display: flex;
     gap: 80px;
     margin-top: 40px;

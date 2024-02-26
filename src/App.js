@@ -1,14 +1,36 @@
 import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import About from './Components/About';
+import Sas from './Components/Cataloge/Sas';
+import DataScience from './Components/Cataloge/DataScience'
+import FullStack from './Components/Cataloge/FullStack'
+import Internship from './Components/Cataloge/Internship'
 import Training from './Components/Training';
-
+import Scholarship from './Components/Cataloge/Scholarship';
+import Recentnews from './Components/RecentNew';
+import SasDetails from './Components/Details/SasDetails';
 
 
 function App() {
   return (
     <div className="App">
      {/* <About /> */}
-     <Training />
+     {/* <Training /> */}
+     {/* <Recentnews /> */}
+     {/* <Sas /> */}
+
+     <Router>
+      <Routes>
+      <Route path="/" element={<About />} />
+         {/*<Route path="/" element={<Training />} />
+        <Route path="/sas" element={<Sas />} />
+        <Route path="/dataScience" element={<DataScience />} />
+        <Route path="/fullStack" element={<FullStack />} />
+        <Route path="/internship" element={<Internship />} />
+        <Route path="/scholarship" element={<Scholarship />} />
+        <Route path="/sasdetails" element={<SasDetails />}/> */}
+      </Routes>
+    </Router>
     </div>
   );
 }

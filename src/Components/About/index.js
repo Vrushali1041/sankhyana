@@ -3,6 +3,7 @@ import "./About.css"
 import Navbar from "../Header/Navbar";
 import OfferNavbar from "../Header/OfferNavbar";
 import banner from "./Images/banner.jpg"
+import bg from "./Images/bg-img.jpeg"
 import leadership from "./Images/leadership.png"
 
 
@@ -15,11 +16,12 @@ function About() {
             </div>
 
             {/* About Section */}
-            <div className="img">
-                <img src={banner} alt="" />
-                {/* <img src="https://media.licdn.com/dms/image/C5612AQF-1io-JnaQ2g/article-cover_image-shrink_600_2000/0/1640817750020?e=2147483647&v=beta&t=yYnRppQDflrrY9gTIrzWCZ3uc-3AXvfhLPnzIizZUDQ" alt=""/> */}
+            <div className="bgImg">
+                {/* <img src={banner} alt="" /> */}
+                <img src={bg} alt="" />
+                
             </div>
-            <div className="bg-img">
+            <div>
                 <div className="About">
                     <div >
                         <h1>ABOUT US</h1>
@@ -33,12 +35,12 @@ function About() {
                             <span className="topic-name">Expertise and Specialization:</span> Our team comprises industry experts with extensive knowledge in diverse sectors. From finance and healthcare to technology and beyond, our consultants bring a wealth of experience, enabling us to understand the unique challenges and opportunities each industry presents.
                         </p>
                     </div>
-                    <button className="btn">Download Our Brochure</button>
+                    <button className="Downloadbut">Download Our Brochure</button>
                 </div>
 
                 {/* Mission Vision section */}
                 <h3 className="mission">Mission</h3>
-                <div className="mission-vision-container">
+                <div className="mission-vision">
                     <div className=" mission-info">
                         <p>
                             To provide credible & reliable insights emphasizing “Data Driven Decision Science”.
@@ -74,7 +76,7 @@ function About() {
             </div>
 
             {/* Leadership Section */}
-            <section className="lead-container">
+            <section class="lead">
                 <div className="leadership">
                     <h1> Leadership</h1>
                     <p className="leadership-info"><span className="leadership-point">Team and Leadership: </span>
